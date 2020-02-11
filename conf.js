@@ -27,14 +27,17 @@ jsproxy_config({
         'node-aliyun-sg.etherdream.com:8443': 1,
       },
     },
+'HongKong':{label:'52proxy香港节点',hidden:true,lines:{'5.180.97.160.nip.io:8443':1,}},'mycfworker':{label:'52proxyCloudflare节点-备用',lines:{'shiny-block-3d50.52proxy.workers.dev':1,}}
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: 'CFWorker',
       lines: {
         'node-cfworker-2.etherdream.com': 1,
         // free
-        'jsp.d2l.workers.dev': 1
-      }
+        'jsp.d2l.workers.dev': 1,
+        'odd-paper-3fc0.52proxy.workers.dev':1
+      },
+    '52proxy':{label:'52proxy',lines:{"js.52proxy.fun":1}
     }
   },
 
